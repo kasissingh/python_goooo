@@ -1,0 +1,13 @@
+def remove_last(Lst):
+    Lst.pop()
+    return Lst
+
+my_list = [10,20,30,40]
+
+print("Original list:",my_list)
+
+result = remove_last(my_list)
+
+print("List after removing last element:", result)
+print("Original list after function:", my_list)
+

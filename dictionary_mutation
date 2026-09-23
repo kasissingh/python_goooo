@@ -1,0 +1,9 @@
+def add_entry(d):
+    d["age"] = 20
+
+    my_dict = {"name": "Kashish"}
+    print("Before add_entry:",my_dict)
+
+    add_entry(my_dict)
+
+    print("After add_entry:", my_dict)
