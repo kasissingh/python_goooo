@@ -1,0 +1,12 @@
+num=[]
+average=0
+sum=0
+for i in range(0,10):
+    a=int(input("enter the integers: "))
+    sum+=a
+    num.append(a)
+
+average=sum/10
+print("The Average of the integers: ",average)
+print("The sum of the intergers: ",sum)
+print(num)
